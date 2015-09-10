@@ -1,0 +1,5 @@
+platform :ios,'7.0'
+
+pod 'HRKModelTransfer', :path => '..'
+
+pod "AFNetworking", "~> 2.0"
