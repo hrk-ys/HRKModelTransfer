@@ -1,10 +1,18 @@
 # HRKModelTransfer
 
-JSONをCoreDataのNSManagedObjectに変換して保存する
+HRKModelTransfer is JSON response to Core Data model.
 
-## 使い方
+## Install
 
-### key名からModelを自動で取得する場合
+You can use CocoaPods:
+
+```
+pod 'HRKModelTransfer"
+```
+
+## Usage
+
+### Auto mapping Core Data model
 
 ```
 // API Response
@@ -53,9 +61,7 @@ manager.GET("http://example.com/resources.json", parameters: nil, success: { (op
 ```
 
 
-### モデル名を指定する場合
-
-ResponseからはModelが判別できない場合
+### Specify the model name
 
 ```
 // API Response

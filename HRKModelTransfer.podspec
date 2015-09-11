@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "hiroki.yoshifuji" => "hiroki.yoshifuji@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/hrk-ys/HRKModelTransfer", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/hrk-ys/HRKModelTransfer.git", :tag => "0.0.1" }
   s.source_files  = "HRKModelTransfer/**/*.{h,m}"
 
   s.dependency "ActiveSupportInflector"
